@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>MEMORY GAME</h1>
+    <section id="game-controller" class="container">
+        <h4>current score: <span id="currentscore">0</span> </h4>
+        <h4>best score: <span id="bestscore">0</span></h4>
+        <h4>difficulty level: <span id="difficulty">easy</span></h4>
+        
+        <button class="btn btn-outline-warning" id="resetbutton">RESET</button>
+        <hr>
+        <button class="btn btn-outline-success" id="startbutton">START THE GAME!</button>
+    </section>
+    <div id="game-grid">
+        <div class="scene container no-border">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
